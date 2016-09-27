@@ -1,0 +1,952 @@
+/* line 3, ../src/style.scss */
+body,
+.site-footer {
+  background: #F9F5E9 url("https://2016.london.wordcamp.org/files/2015/11/bg-pattern.jpg") repeat;
+}
+
+/* line 8, ../src/style.scss */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #521F2A;
+  font-family: "double-pica", serif;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+/* line 17, ../src/style.scss */
+.error404 .page-header,
+.error404 .page-wrapper,
+.page-header,
+.archive-header,
+.post-navigation {
+  background: transparent;
+}
+
+/* line 25, ../src/style.scss */
+.archive #tertiary {
+  margin-top: 120px;
+}
+
+/* line 29, ../src/style.scss */
+.archive-title, .archive-meta {
+  color: #521F2A;
+  font-family: "double-pica", serif;
+  font-size: 24px;
+  font-style: none;
+  padding-bottom: 30px;
+  background: url(https://2016.london.wordcamp.org/files/2015/12/line02.png) no-repeat center bottom;
+  background-size: auto 26px;
+}
+
+/* line 40, ../src/style.scss */
+.error404 .page-title {
+  text-align: center;
+  line-height: 0.6;
+  margin: 0 auto;
+  padding: 9;
+  position: static;
+  font-family: "double-pica", serif;
+}
+
+/* line 48, ../src/style.scss */
+.error404 .page-title::before {
+  color: #521F2A;
+  content: '404';
+  font-family: "double-pica", serif;
+  font-size: 200px;
+  line-height: 1.2;
+  overflow: visible;
+  position: static;
+  left: auto;
+  top: auto;
+  display: block;
+}
+
+/* line 60, ../src/style.scss */
+.menu-toggle,
+h1, h2, h3, h4, h5, h6,
+.entry-meta,
+.widget .widget-title {
+  font-family: "zebrawood-std-fill", serif;
+}
+
+/* line 67, ../src/style.scss */
+.navbar,
+.site-footer .sidebar-container {
+  background-color: transparent;
+}
+
+/* line 72, ../src/style.scss */
+.navbar {
+  border-top: solid 7px #521F2A;
+  border-bottom: solid 7px #521F2A;
+  font-family: "zebrawood-std-fill", serif;
+  min-height: 50px;
+  max-width: 100%;
+  width: auto;
+}
+
+/* line 81, ../src/style.scss */
+.site {
+  background-color: transparent;
+  width: 80%;
+  border-color: #521F2A;
+  border-style: solid;
+  border-width: 55px;
+  -moz-border-image: url(https://2016.london.wordcamp.org/files/2015/12/shape02.png) 70 repeat;
+  -webkit-border-image: url(https://2016.london.wordcamp.org/files/2015/12/shape02.png) 70 repeat;
+  -o-border-image: url(https://2016.london.wordcamp.org/files/2015/12/shape02.png) 70 repeat;
+  border-image: url(https://2016.london.wordcamp.org/files/2015/12/shape02.png) 70 fill repeat;
+}
+
+/* line 93, ../src/style.scss */
+.site-info {
+  border-top: 7px solid #521F2A;
+  max-width: 100%;
+  padding: 0;
+  text-align: center;
+}
+/* line 99, ../src/style.scss */
+.site-info a {
+  color: transparent;
+  background: url(https://2016.london.wordcamp.org/files/2015/12/logo-footer-red-02@2x.png) no-repeat center/460px 66px;
+  display: block;
+  height: 66px;
+}
+
+/* line 107, ../src/style.scss */
+.sidebar .entry-header,
+.sidebar .entry-content,
+.sidebar .entry-summary,
+.sidebar .entry-meta {
+  padding-left: 0;
+}
+
+/* line 114, ../src/style.scss */
+.site-header {
+  background-size: 388px auto;
+  background-position: 50% 73%;
+}
+
+/* line 118, ../src/style.scss */
+.site-header .home-link {
+  height: 300px;
+}
+
+/* line 122, ../src/style.scss */
+.site-header .home-link .site-title {
+  display: block;
+  background: url("https://2016.london.wordcamp.org/files/2015/12/logo-date@2x.png") no-repeat center;
+  background-size: 300px auto;
+  height: 163px;
+  width: 100%;
+  margin: 0 0 0 0;
+  color: transparent;
+}
+
+/* line 132, ../src/style.scss */
+.site-title {
+  display: none;
+}
+
+/* line 136, ../src/style.scss */
+.site-description {
+  display: none;
+}
+
+/* line 139, ../src/style.scss */
+.site-content .entry-header {
+  margin-bottom: 15px;
+}
+
+/* line 143, ../src/style.scss */
+.entry-title {
+  background: url("https://2016.london.wordcamp.org/files/2015/11/pointinghand@2x.png") no-repeat 0 9px;
+  color: #521F2A;
+  background-size: 104px 53px;
+  font-size: 2em;
+  line-height: 1.6;
+}
+
+/* line 151, ../src/style.scss */
+.sidebar .entry-header .entry-meta {
+  padding: 0px 0px 0px 104px;
+}
+
+/* line 154, ../src/style.scss */
+.entry-title,
+.entry-meta {
+  padding-left: 104px;
+  text-align: center;
+  color: #521F2A;
+  font-family: "zebrawood-std-fill", serif;
+}
+
+/* line 162, ../src/style.scss */
+.entry-title {
+  line-height: 1.2;
+}
+
+/* line 166, ../src/style.scss */
+.entry-meta {
+  text-transform: uppercase;
+}
+
+/* line 170, ../src/style.scss */
+.nav-menu {
+  background: #F9F5E9 url("https://2016.london.wordcamp.org/files/2015/11/bg-pattern.jpg") repeat;
+}
+
+/* line 174, ../src/style.scss */
+.menu-toggle,
+.menu-toggle:hover,
+.menu-toggle:focus,
+.menu-toggle:active,
+.entry-title a,
+.navigation a,
+.nav-menu li a {
+  color: #521F2A;
+}
+
+/* line 184, ../src/style.scss */
+.toggled-on .nav-menu > li a:hover,
+.toggled-on .nav-menu > ul a:hover,
+.nav-menu .sub-menu,
+.nav-menu .children {
+  background-color: #521F2A;
+}
+
+/* line 192, ../src/style.scss */
+.entry-title a:hover,
+.entry-title a:focus {
+  color: #9E2E47;
+}
+
+/* line 197, ../src/style.scss */
+.nav-menu li:hover > a,
+.nav-menu li a:hover,
+.nav-menu li:focus > a,
+.nav-menu li a:focus {
+  background-color: #521F2A;
+  color: #F9F5E9;
+}
+
+/* line 205, ../src/style.scss */
+.nav-menu .current_page_item > a,
+.nav-menu .current_page_ancestor > a,
+.nav-menu .current-menu-item > a,
+.nav-menu .current-menu-ancestor > a {
+  color: #9E2E47;
+}
+
+/* line 212, ../src/style.scss */
+ul.nav-menu ul a, .nav-menu ul ul a {
+  color: #F9F5E9;
+}
+
+/* line 216, ../src/style.scss */
+.nav-menu ul .current-menu-item > a {
+  color: #95C3C7;
+}
+
+/* line 220, ../src/style.scss */
+ul.nav-menu ul a:hover,
+.nav-menu ul ul a:hover,
+ul.nav-menu ul a:focus,
+.nav-menu ul ul a:focus {
+  background-color: #95C3C7;
+  color: #521F2A !important;
+}
+
+/* line 228, ../src/style.scss */
+.paging-navigation {
+  background: transparent;
+  padding: 0 0;
+}
+/* line 232, ../src/style.scss */
+.paging-navigation a {
+  color: #9E2E47;
+}
+/* line 234, ../src/style.scss */
+.paging-navigation a .meta-nav {
+  background-color: #9E2E47;
+}
+/* line 237, ../src/style.scss */
+.paging-navigation a:hover {
+  color: #95C3C7;
+}
+/* line 239, ../src/style.scss */
+.paging-navigation a:hover .meta-nav {
+  background-color: #95C3C7;
+}
+
+/* line 246, ../src/style.scss */
+.sidebar .paging-navigation .nav-links {
+  padding: 0;
+}
+
+/* line 250, ../src/style.scss */
+article .entry-content::after,
+div[class^="wcorg-sponsor-level-"]::after {
+  display: block;
+  min-height: 26px;
+  padding-bottom: 30px;
+  content: '';
+  width: 100%;
+  background: url(https://2016.london.wordcamp.org/files/2015/12/line02.png) no-repeat center bottom;
+  background-size: auto 26px;
+  padding-right: 0;
+  margin-right: 376px;
+}
+
+/* line 263, ../src/style.scss */
+.wcorg-sponsor-level-whitechapel-road::after {
+  display: none;
+  background-image: none;
+}
+
+/* line 269, ../src/style.scss */
+.entry-meta,
+.entry-content,
+.comment-content {
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
+  word-wrap: normal;
+}
+/* line 277, ../src/style.scss */
+.entry-meta a,
+.entry-content a,
+.comment-content a {
+  color: #9E2E47;
+}
+/* line 280, ../src/style.scss */
+.entry-meta a::before, .entry-meta a:hover,
+.entry-content a::before,
+.entry-content a:hover,
+.comment-content a::before,
+.comment-content a:hover {
+  color: #95C3C7;
+}
+
+/* line 288, ../src/style.scss */
+.wcorg-speaker-description img {
+  float: left;
+  margin-right: 20px;
+}
+
+/* line 295, ../src/style.scss */
+.widget {
+  background: transparent;
+  border: 4px solid #95C3C7;
+  font-size: 1.05rem;
+}
+/* line 299, ../src/style.scss */
+.widget .widget-title {
+  font-style: normal;
+  font-size: 1.2rem;
+}
+
+/* line 305, ../src/style.scss */
+#subscribe-email input {
+  color: #9E2E47;
+  padding: 5px;
+  font-family: "zebrawood-std-fill", serif;
+}
+
+/* line 311, ../src/style.scss */
+#subscribe-submit {
+  margin-bottom: 0;
+}
+
+/* line 315, ../src/style.scss */
+.button,
+input[type="submit"] {
+  background: #9E2E47;
+  border: 0;
+  font-family: "zebrawood-std-fill", serif;
+}
+/* line 320, ../src/style.scss */
+.button:hover,
+input[type="submit"]:hover {
+  background: #95C3C7;
+}
+
+/* line 325, ../src/style.scss */
+.comments-area {
+  background: transparent;
+}
+
+/* line 330, ../src/style.scss */
+.entry-content ol {
+  list-style-position: inside;
+}
+/* line 333, ../src/style.scss */
+.entry-content ol li > h3 {
+  display: inline;
+}
+
+/* Screen Reader Only */
+/* line 343, ../src/style.scss */
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+/* Speakers without Gravatar */
+/* line 355, ../src/style.scss */
+.wcb_speaker-slug-leena-haque .speaker-avatar, #wcorg-speaker-leena-haque .avatar {
+  display: none;
+}
+
+/* line 358, ../src/style.scss */
+#wcorg-speaker-leena-haque .size-thumbnail {
+  width: 100px;
+  margin-left: 0;
+}
+
+/* Hide */
+/* line 364, ../src/style.scss */
+#contact-form-10 {
+  display: none;
+}
+
+/* line 369, ../src/style.scss */
+.entry-content img.alignleft, .entry-content .wp-caption.alignleft {
+  margin-left: 0;
+}
+
+/* line 373, ../src/style.scss */
+.sidebar .entry-header, .sidebar .entry-content, .sidebar .entry-summary, .sidebar .entry-meta {
+  padding-right: 0;
+}
+
+/* line 377, ../src/style.scss */
+.site-main {
+  overflow: hidden;
+  padding: 0 0 20px;
+}
+
+/* line 382, ../src/style.scss */
+.content-area {
+  width: 63%;
+  float: left;
+}
+
+/* line 387, ../src/style.scss */
+.site-main .sidebar-container {
+  height: auto;
+  float: left;
+  position: relative;
+  width: 37%;
+}
+
+/* line 394, ../src/style.scss */
+.sidebar .site-footer .widget-area {
+  max-width: none;
+  left: 0;
+}
+
+/* Table Styles */
+/* line 400, ../src/style.scss */
+table {
+  font-size: 18px;
+  width: 100%;
+}
+/* line 403, ../src/style.scss */
+table.larger-text {
+  font-size: 100%;
+}
+
+/* line 407, ../src/style.scss */
+table, th, td {
+  border-collapse: collapse;
+}
+
+/* line 410, ../src/style.scss */
+th, td {
+  padding: 8px 5px;
+}
+
+/* line 414, ../src/style.scss */
+table.sponsors {
+  border: 1px solid #521F2A;
+}
+
+/* line 417, ../src/style.scss */
+.table-flourish {
+  background: url("https://2016.london.wordcamp.org/files/2015/12/table-florish1.png") no-repeat center 27px/contain;
+  height: 75px;
+}
+
+/* for high resolution display */
+@media only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+  /* line 426, ../src/style.scss */
+  .table-flourish {
+    background: transparent url("https://2016.london.wordcamp.org/files/2015/12/table-florish@2x.png") no-repeat scroll center 27px/contain;
+  }
+}
+/* Organisers */
+/* line 433, ../src/style.scss */
+.wcorg-organizer .avatar {
+  float: right;
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+/*Sponsors */
+/* line 442, ../src/style.scss */
+.wcorg-sponsors h3 {
+  display: none !important;
+}
+
+/* line 445, ../src/style.scss */
+.wcorg-sponsor img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 450, ../src/style.scss */
+.wcorg-sponsor-level-piccadilly .wcorg-sponsor img {
+  max-width: 450px;
+}
+
+/* line 454, ../src/style.scss */
+.wcorg-sponsor-level-regent-street .wcorg-sponsor img {
+  max-width: 380px;
+}
+
+/* line 457, ../src/style.scss */
+.wcorg-sponsor-level-old-kent-road .wcorg-sponsor {
+  max-width: 240px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 40px;
+}
+
+/* line 463, ../src/style.scss */
+.wcorg-sponsor-level-old-kent-road .wcorg-sponsor:nth-of-type(2n) {
+  margin-right: 0;
+}
+
+/* line 466, ../src/style.scss */
+.wcorg-sponsor-level-whitechapel-road .wcorg-sponsor {
+  max-width: 150px;
+  display: inline-block;
+  vertical-align: baseline;
+  margin-right: 40px;
+}
+
+/* line 472, ../src/style.scss */
+.wcorg-sponsor-level-whitechapel-road .wcorg-sponsor:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+/* line 476, ../src/style.scss */
+.single-wcb_sponsor .entry-thumbnail {
+  display: none;
+}
+
+/* line 480, ../src/style.scss */
+a.button,
+span.button {
+  border-radius: 2px;
+  display: inline-block;
+  padding: 11px 24px 10px;
+  color: #fff;
+}
+
+/* line 488, ../src/style.scss */
+.stand-out {
+  font-family: "zebrawood-std-fill", serif;
+  font-size: 18px;
+}
+
+/** Widgets **/
+/* line 495, ../src/style.scss */
+#text-6 {
+  font-size: 1.2rem;
+}
+/* line 497, ../src/style.scss */
+#text-6 .button {
+  width: 100%;
+}
+/* line 500, ../src/style.scss */
+#text-6 p:last-of-type {
+  margin-bottom: 0;
+}
+
+/* Sponsors Widget */
+/* line 506, ../src/style.scss */
+.widget.wcb_widget_sponsors {
+  width: 100% !important;
+  text-align: center;
+}
+/* line 510, ../src/style.scss */
+.widget.wcb_widget_sponsors .widget-title {
+  text-align: left;
+  font-size: 1.3rem;
+}
+
+/* line 515, ../src/style.scss */
+.wcb_widget_sponsors .sponsor-logo {
+  max-width: 220px;
+  padding: 3px;
+  text-align: center;
+}
+
+/* line 520, ../src/style.scss */
+.wcb_widget_sponsors .park-lane .sponsor-logo {
+  display: inline-block;
+  max-width: 240px;
+  margin-bottom: 15px;
+}
+/* line 524, ../src/style.scss */
+.wcb_widget_sponsors .park-lane .sponsor-logo:first-of-type {
+  margin-bottom: 30px;
+}
+
+/* line 529, ../src/style.scss */
+.wcb_widget_sponsors .piccadilly .sponsor-logo {
+  display: inline-block;
+  max-width: 220px;
+}
+
+/* line 533, ../src/style.scss */
+.wcb_widget_sponsors .regent-street .sponsor-logo {
+  display: inline-block;
+  max-width: 160px;
+}
+
+/* line 537, ../src/style.scss */
+.wcb_widget_sponsors .old-kent-road .sponsor-logo {
+  display: inline-block;
+  max-width: 120px;
+  padding: 10px;
+}
+
+/* line 542, ../src/style.scss */
+.wcb_widget_sponsors .whitechapel-road .sponsor-logo {
+  display: inline-block;
+  max-width: 100px;
+  padding: 5px;
+}
+
+/* line 547, ../src/style.scss */
+.widget.wcb_widget_sponsors h3, .widget.wcb_widget_sponsors h4 {
+  color: #521F2A;
+}
+
+/*  SCHEDULE */
+/* line 552, ../src/style.scss */
+table.wcpt-schedule tr {
+  border-bottom-color: #521F2A;
+}
+
+/* line 556, ../src/style.scss */
+.wcpt-time {
+  font-size: 128%;
+}
+
+/* line 560, ../src/style.scss */
+.wcpt-session-title {
+  font-size: 120%;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 0.5em;
+  display: inline-block;
+}
+/* line 567, ../src/style.scss */
+.wcpt-session-type-custom .wcpt-session-title {
+  margin-bottom: 0;
+}
+
+/* line 571, ../src/style.scss */
+.wcpt-session-speakers {
+  font-size: 110%;
+  display: block;
+  line-height: 1.4;
+}
+
+/** Single Sessions **/
+/* line 578, ../src/style.scss */
+.session-speakers, #session-speaker-names {
+  display: none;
+}
+
+/* Sponsors Table */
+/* line 581, ../src/style.scss */
+.sponsors thead th {
+  font-family: "zebrawood-std-fill", serif;
+  text-align: center;
+  line-height: 1.25;
+}
+
+/* line 586, ../src/style.scss */
+.sponsors tbody th {
+  font-family: "zebrawood-std-fill", serif;
+  text-align: left;
+  text-transform: uppercase;
+  border-right: 1px solid #521F2A;
+  border-bottom: 1px solid #521F2A;
+}
+
+/* line 593, ../src/style.scss */
+.sponsors td {
+  color: #521F2A;
+  font-family: serif;
+  border-top: 1px solid #521F2A;
+  border-bottom: 1px solid #521F2A;
+  text-align: center;
+  line-height: 1.25;
+}
+
+/* line 601, ../src/style.scss */
+.sponsors .first-title {
+  color: #F9F5E9;
+  background-color: #521F2A;
+}
+
+/* Tickets Table */
+/* line 607, ../src/style.scss */
+.tix_tickets_table {
+  font-size: 0.9rem;
+}
+
+/* line 610, ../src/style.scss */
+.tix_tickets_table .tix-ticket-title {
+  font-size: 0.9rem;
+}
+
+/* line 614, ../src/style.scss */
+.wcorg-sponsor-description > img {
+  display: none;
+}
+
+/* line 618, ../src/style.scss */
+.freebirdFormviewerViewFormContentWrapper,
+.freebirdHeaderMast {
+  background: none;
+}
+
+/* Responsive Table */
+@media only screen and (max-width: 1280px) {
+  /* line 626, ../src/style.scss */
+  .sponsors {
+    /* Force table to not be like tables anymore */
+    /* Hide table headers (but not display: none;, for accessibility) */
+    /*
+    Label the data
+    */
+  }
+  /* line 628, ../src/style.scss */
+  .sponsors table, .sponsors thead, .sponsors tbody, .sponsors th, .sponsors td, .sponsors tr {
+    display: block;
+  }
+  /* line 633, ../src/style.scss */
+  .sponsors th {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  /* line 639, ../src/style.scss */
+  .sponsors td {
+    /* Behave  like a "row" */
+    border: none;
+    position: relative;
+    padding-left: 50%;
+  }
+  /* line 645, ../src/style.scss */
+  .sponsors td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+  /* line 660, ../src/style.scss */
+  .sponsors td:nth-of-type(1):before {
+    content: "What?";
+  }
+  /* line 661, ../src/style.scss */
+  .sponsors td:nth-of-type(2):before {
+    content: "Park Lane";
+  }
+  /* line 662, ../src/style.scss */
+  .sponsors td:nth-of-type(3):before {
+    content: "Piccadilly";
+  }
+  /* line 663, ../src/style.scss */
+  .sponsors td:nth-of-type(4):before {
+    content: "Regent Street";
+  }
+  /* line 664, ../src/style.scss */
+  .sponsors td:nth-of-type(5):before {
+    content: "Old Kent Road";
+  }
+  /* line 665, ../src/style.scss */
+  .sponsors td:nth-of-type(6):before {
+    content: "Whitechapel Road";
+  }
+
+  /* line 667, ../src/style.scss */
+  .sponsors td {
+    border-bottom: 0;
+  }
+
+  /* line 670, ../src/style.scss */
+  .sponsors td:first-of-type {
+    color: #F9F5E9;
+    background: #531E2A;
+    text-align: center;
+    border: 0;
+  }
+
+  /* line 676, ../src/style.scss */
+  .table-flourish {
+    background: transparent url("https://2016.london.wordcamp.org/files/2015/12/table-florish1.png") no-repeat scroll center 14px;
+    height: 52px;
+  }
+
+  /* for high resolution display */
+}
+@media only screen and (max-width: 1280px) and (min--moz-device-pixel-ratio: 2), only screen and (max-width: 1280px) and (-o-min-device-pixel-ratio: 2 / 1), only screen and (max-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), only screen and (max-width: 1280px) and (min-device-pixel-ratio: 2) {
+  /* line 685, ../src/style.scss */
+  .table-flourish {
+    background: transparent url("https://2016.london.wordcamp.org/files/2015/12/table-florish@2x.png") no-repeat scroll center 14px;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 1279px) {
+  /* line 692, ../src/style.scss */
+  .table-flourish {
+    background-size: contain;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 698, ../src/style.scss */
+  .table-flourish {
+    background-size: cover;
+  }
+}
+/* Media Queries */
+@media (max-width: 860px) {
+  /* line 706, ../src/style.scss */
+  .site-header .home-link .site-title,
+  .site-description,
+  .site-info a {
+    background-size: contain;
+  }
+
+  /* line 711, ../src/style.scss */
+  .site-header .home-link .site-title {
+    background-position: bottom center;
+  }
+
+  /* line 714, ../src/style.scss */
+  .site-description,
+  .site-info a {
+    background-position: top center;
+  }
+
+  /* line 718, ../src/style.scss */
+  #tix-attendees .tix-columns-3 li {
+    width: 50%;
+  }
+
+  /* line 721, ../src/style.scss */
+  .site-main .sidebar-container {
+    clear: both;
+    width: 100%;
+  }
+
+  /* line 725, ../src/style.scss */
+  .content-area {
+    width: 100%;
+  }
+}
+@media (max-width: 720px) {
+  /* line 730, ../src/style.scss */
+  #tix-attendees .tix-columns-3 li {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 735, ../src/style.scss */
+  .entry-title, .entry-meta {
+    padding-left: 0;
+    min-height: 40px;
+  }
+
+  /* line 739, ../src/style.scss */
+  .entry-title {
+    background: none;
+    padding-left: 0;
+    line-height: 1.2;
+  }
+
+  /* line 744, ../src/style.scss */
+  #content .entry-header,
+  .sidebar .entry-header .entry-meta {
+    padding: 0px;
+  }
+
+  /* line 748, ../src/style.scss */
+  .site {
+    border-width: 0;
+  }
+
+  /* line 751, ../src/style.scss */
+  #content .entry-content {
+    padding: 0;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 480px) {
+  /* line 756, ../src/style.scss */
+  .site-header {
+    background: none;
+  }
+
+  /* line 759, ../src/style.scss */
+  .site-header .home-link {
+    margin: 0 0 20px;
+    padding: 0;
+    min-height: auto;
+    height: auto;
+  }
+}
+@media screen and (max-width: 359px) {
+  /* line 767, ../src/style.scss */
+  .site-header .home-link {
+    margin: -40px auto 0;
+    padding: 0;
+  }
+}
+/* line 773, ../src/style.scss */
+.sidebar .post-navigation .nav-links {
+  padding: 0;
+}
+
+/* line 777, ../src/style.scss */
+.sidebar .comments-title, .sidebar .comment-list, .sidebar .must-log-in, .sidebar .comment-reply-title, .sidebar .comment-navigation, .sidebar .comment-respond .comment-form {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 782, ../src/style.scss */
+.comment-respond {
+  background: transparent;
+}
+
+/*# sourceMappingURL=style.css.map */
