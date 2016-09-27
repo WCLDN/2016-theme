@@ -15,6 +15,7 @@ after_success:
   - ssh-add .travis/deploy_key.pem
   - git config --global user.email "travis@travis-ci.org"
   - git config --global user.name "Travis CI"
+  - git remote set-url origin git@github.com:WCLDN/2016-theme.git
   - git add -f build/style.css build/style.css.map
   - "git commit --message '[ci skip] Travis build: $TRAVIS_BUILD_NUMBER'"
   - git push
