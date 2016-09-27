@@ -18,5 +18,5 @@ after_success:
   - git config --global user.name "Travis CI"
   - git remote add deploy git@github.com:WCLDN/2016-theme.git
   - git add -f build/style.css build/style.css.map
-  - "git commit --message '[ci skip] Travis build: $TRAVIS_BUILD_NUMBER'"
+  - 'git commit --message "[ci skip] Travis build: ${TRAVIS_BUILD_NUMBER}"'
   - git push deploy
