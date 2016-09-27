@@ -16,5 +16,5 @@ after_success:
   - git config --global user.email "travis@travis-ci.org"
   - git config --global user.name "Travis CI"
   - git add -f build/style.css build/style.css.map
-  - git commit --message "[ci skip] Travis build: $TRAVIS_BUILD_NUMBER"
+  - "git commit --message '[ci skip] Travis build: $TRAVIS_BUILD_NUMBER'"
   - git push
