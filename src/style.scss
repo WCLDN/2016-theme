@@ -112,8 +112,8 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .site-header {
-background-size: 388px auto;
-background-position: 50% 73%;		
+	background-size: 388px auto !important;
+	background-position: 50% 73% !important;
 }
 .site-header .home-link {
 	height: 300px;	
